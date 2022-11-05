@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-vi">
+<head>
+    <meta charset="UTF-8">
+    <title> Bai tap Tao Form lay Servey khach hang</title>
+</head>
+<body>
+<form action="baitaptaoFormlayServer%20khach%20hang.html"method="post">
+ <Label name="Age">What is your age range?</Label><br>
+    <select name="age">
+        <option value="12-24">18-24</option>
+        <option value="25-34">25-34</option>
+        <option value="35-50">35-50</option>
+        <option value="50+">50+</option>
+    </select>
+<br><br>
+<Label name="yearly income">What is your yearly income range?</Label><br>
+    <select name="yearly income">
+        <option value="$0-$25,000">$0-$25,000</option>
+        <option value="$25,001-$50,000">$25,001-$50,000</option>
+        <option value="$50,001-$100,000">$50,001-$100,000</option>
+        <option value="$100,000+">$100,000+</option>
+    </select>
+<br><br>
+    <label name="Gender">Gender Identity </label><br>
+    <input type="radio" name="gender" value="Male" checked>Male<br>
+    <input type="radio" name="gender" value="Female">Female<br>
+    <input type="radio" name="gender" value="Nonbinary">Nonbinary<br>
+    <input type="radio" name="gender" name="gender">Other <br>
+    <input type="text" name="gender"name="gender">
+<br><br>
+    <label name="Gender">Which of the following products have your purchased in the last 2 months. Please check all that apply. </label><br>
+    <input type="Checkbox" name="product" value="product1">Product 1<br>
+    <input type="checkbox" name="product" value="product2">Product 2<br>
+    <input type="checkbox" name="product" value="product3">Product 3
+<br><br>
+    <label name="How often would you use our new product?">How often would you use our new product? </label><br>
+    <input type="radio" name="How often would you use our new product?" value="Daily">Daily<br>
+    <input type="radio" name="How often would you use our new product?" value="Weekly">Weekly<br>
+    <input type="radio" name="How often would you use our new product?" value="Monthly">Monthly
+<br><br>
+    <label name="What would you pay for the new product">What would you pay for the new product?</label><br>
+    <label>$</label>
+    <input type="text">-
+    <input type="text"
+<br>
+<br>
+<br>
+    <lebel>What features would you like to see in the new product.</lebel>
+    <textarea cols="50" rows="4"></textarea>
+<br>
+<br>
+    <labe>Please rate your level of agreement with the following statements</labe>
+    <table border="1">
+        <tr style="background-color:silver">
+            <td></td>
+            <td> Strongly Disagree</td>
+            <td> Disagree</td>
+        </tr>
+        <tr>
+            <td> <b>Out products are priced fairly</b></td>
+            <td> <input type="radio" value="1">1 </td>
+            <td> <input type="radio" value="2">2 </td>
+        </tr>
+        <tr style="background-color: silver">
+            <td> <b>Out products are high quality</b></td>
+            <td> <input type="radio" value="1">1 </td>
+            <td> <input type="radio" value="2">2 </td>
+        </tr>
+        <tr>
+            <td> <b>You would recommend our product to a friend or cowoker.</b></td>
+            <td> <input type="radio" value="1">1 </td>
+            <td> <input type="radio" value="2">2 </td>
+        </tr>
+    </table>
+    <br>
+    <tr>
+        <input type="Submit" value="Submit">
+    </tr>
+</form>
+
+</body>
+</html>
