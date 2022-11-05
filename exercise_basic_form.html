@@ -44,9 +44,58 @@
  </Form>
 <h2> 2. Tạo form đăng ký học viên</h2>
 <form action="exercise_basic_form.html" method="post">
-    <tr>
-        <td> ĐĂNG K</td>
+<table style="background-color:orange">
+    <tr style="background-color: aquamarine">
+        <th style="color: blue" colspan="3"> ĐĂNG KÝ HỌC VIÊN</th>
     </tr>
+    <tr>
+        <td> Họ và tên</td>
+        <td colspan="2">
+            <input type="text" name="Họ Và tên" value="Nguyen Van An">
+        </td>
+    </tr>
+    <tr>
+        <td> Ngày sinh</td>
+        <td colspan="2">
+            <input type="text" name="birthday"value="dd/mm/yy">
+        </td>
+    </tr>
+    <tr>
+        <td> Giới tính</td>
+        <td> <input type="radio" name="gender" value="Male">Nam</td>
+        <td> <input type="radio" name="gender" value="Female">Nữ</td>
+    </tr>
+    <tr>
+        <td>Địa chỉ</td>
+        <td colspan="2">
+            <input type="text" name="Address">
+        </td>
+    </tr>
+    <tr>
+        <td> Lớp </td>
+        <td colspan="2">
+            <select name="Lớp">
+                <option value="Chọn lớp">- Chọn Lớp-</option>
+                <option value="Lớp 10"> Lớp 10 </option>
+                <option value="Lớp 11"> Lớp 11 </option>
+                <option value="Lớp 12"> Lớp 12 </option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td> Email </td>
+        <td colspan="2"><input type="email" name="email"></td>
+    </tr>
+    <tr>
+        <td> Điện thoại </td>
+        <td colspan="2"> <input type="text" name="Phonenumber"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="Submit" value="Đăng Ký"></td>
+        <td><input type="Reset" value="Nhập lại"></td>
+    </tr>
+</table>
 </form>
 
 </body>
